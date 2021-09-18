@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "robotoBold";
+  src: url("../font/roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+font-family: "robotoLight";
+src: url("../font/roboto/Roboto-Light.ttf");
+}
+
+.mobile {
+  display: none !important;
+}
+
+@media (max-width: 700px) {
+  .mobile {
+    display: inline !important;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+}
+
+.navbarButtons{
+color: white;
+text-decoration: none;
+font-family: "robotoLight";
+font-size: 23px;
+margin-left: 2%;
+}
+
+.navbar{
+top: 70px;
+}
+
+.navbarMobile{
+  top: 60px;
+}
+
+.navbarButtonsMB{
+  color: white;
+  text-decoration: none;
+  font-family: "robotoLight";
+  font-size: 16px;
+  margin-left: 3%;
+  }
+
+body{
+margin-top: -40px;
+}
