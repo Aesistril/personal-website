@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "robotoLight";
+    src: url("../font/roboto/Roboto-Light.ttf");
+    }
+
  /* The side navigation menu */
  .sidenav {
     height: 100%; /* 100% Full-height */
@@ -21,6 +26,7 @@
     display: block;
     white-space: nowrap;
     transition: 0.3s;
+    font-family: 'robotoLight';
   }
   
   /* When you mouse over the navigation links, change their color */
@@ -47,4 +53,12 @@
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-  } 
+  }
+
+  .menubutton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 35px;
+    height: auto;
+  }

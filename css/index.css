@@ -1,9 +1,4 @@
 @font-face {
-  font-family: "robotoBold";
-  src: url("../font/roboto/Roboto-Bold.ttf");
-}
-
-@font-face {
 font-family: "robotoLight";
 src: url("../font/roboto/Roboto-Light.ttf");
 }
@@ -33,6 +28,7 @@ src: url("../font/roboto/Roboto-Light.ttf");
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: 'RobotoLight';
   font-size: 17px;
 }
 
