@@ -1,0 +1,11 @@
+.layer2{
+    position:relative;
+    Z-index: 2;
+}
+
+body{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+}
