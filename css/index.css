@@ -3,20 +3,6 @@ font-family: "robotoLight";
 src: url("../font/roboto/Roboto-Light.ttf");
 }
 
-.mobile {
-  display: none !important;
-}
-
-@media (max-width: 700px) {
-  .mobile {
-    display: inline !important;
-  }
-
-  .desktop {
-    display: none !important;
-  }
-}
-
 .navbar {
   background-color: #333;
   overflow: hidden;
