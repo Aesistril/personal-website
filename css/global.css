@@ -14,7 +14,7 @@ body{
   
   @media (max-width: 800px) {
     .mobile {
-      display: inline !important;
+      display: block !important;
     }
   
     .desktop {
