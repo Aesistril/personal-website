@@ -12,7 +12,7 @@ body{
     display: none !important;
   }
   
-  @media (max-width: 700px) {
+  @media (max-width: 800px) {
     .mobile {
       display: inline !important;
     }
