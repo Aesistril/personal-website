@@ -11,10 +11,23 @@ body{
 .mobile {
     display: none !important;
   }
-  
   @media (max-width: 800px) {
     .mobile {
       display: block !important;
+    }
+  
+    .desktop {
+      display: none !important;
+    }
+  }
+
+
+.mobileInBL {
+    display: none !important;
+  }
+  @media (max-width: 800px) {
+    .mobileInBL {
+      display: inline-block !important;
     }
   
     .desktop {
