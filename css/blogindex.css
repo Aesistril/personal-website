@@ -1,0 +1,62 @@
+/* import roboto font */
+@font-face {
+    font-family: "roboto";
+    src: url("/font/roboto/Roboto-Medium.ttf");
+}
+
+
+.category-title {
+    font-family: "roboto";
+    font-size: 2.4em;
+    font-weight: bold;
+    color: #6c6f77;
+    text-align: center;
+}
+
+.category-image {
+    display: block;
+    width: 19vw;
+    height: auto;
+    margin-left: auto;
+    margin-top: 4%;
+    margin-right: auto;
+    border-radius: 1.5em;
+}
+
+.category {
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.7));
+    border-radius: 1.5em;
+    background-color: #F9F9F9;
+    margin-left: 2%;
+    margin-right: auto;
+    width: 20vw;
+    float: left;
+}
+
+.category-first {
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.7));
+    border-radius: 1.5em;
+    background-color: #F9F9F9;
+    margin-right: auto;
+    width: 20vw;
+    float: left;
+}
+
+.centerTitle {
+    font-family: 'roboto';
+    font-size: 40px;
+    color: #6c6f77;
+    text-align: center;
+}
+
+.titleSeperator {
+    width: 85vw;
+    border-top: 3px solid #6c6f77;
+    margin-top: -15px;
+    margin-bottom: 5%;
+}
+
+.category-container {
+    margin: 0 auto;
+    width: 6%+60vw;
+}
