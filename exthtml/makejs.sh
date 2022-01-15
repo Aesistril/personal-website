@@ -1,3 +1,5 @@
+#!/bin/bash
+
 for filename in ./html/*; do
   NAME="$(basename $filename .html)"
   JSNAME="${NAME}.js"
