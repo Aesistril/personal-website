@@ -1,6 +1,6 @@
 exthtml/js/*
-./bulma-styles/*.map
-./bulma-styles/*.css
+bulma-styles/*.map
+bulma-styles/*.css
 
 css-all/node_modules/bulma/sass/base/*.css
 css-all/node_modules/bulma/sass/components/*.css
